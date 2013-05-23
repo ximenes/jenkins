@@ -10,7 +10,7 @@ License and Authors
 Authors: TODO: List authors
 
 
-Procedure
+HowTo
 ------------------
 
  - Install GIT client
