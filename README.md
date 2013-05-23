@@ -3,7 +3,7 @@ jenkins Cookbook
 
  - Author: Eduardo Ximenes Soares <duximenes@gmail.com>
  - Cookbook install and configure: jenkins / jdk / jboss server / monit 
- - Test: chef-solo AMI UBNTU SERVER EC2
+ - Test: chef-solo AMI UBNTU SERVER EC2 and AMI LINUX AMAZON
 
 
 HowTo
