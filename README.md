@@ -40,4 +40,5 @@ HowTo
 	- chef-solo -c /opt/chef-repo/solo.rb -j /opt/chef-repo/JASON_NAME.json
 
 
-
+ - Access:
+	- http://your_ip:8080/jenkins
