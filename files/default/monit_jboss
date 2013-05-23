@@ -1,0 +1,4 @@
+check host jbossserver with address localhost
+    start program = "/opt/jboss-as-7.1.1.Final/bin/standalone.sh"
+    stop program = "/usr/bin/killall -9 java"
+    if failed port 8080 and protocol http then restart
