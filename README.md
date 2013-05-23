@@ -32,12 +32,12 @@ HowTo
  - Download REPO: 
 	- git clone https://github.com/ximenes/jenkins.git -l /opt/chef-repo/cookbooks/jenkins
 
- - Create your json (/opt/chef-repo/YOUR_NAME.json)
+ - Create your json (/opt/chef-repo/JSON_NAME.json)
 	- Add line: 
 		-  {   "run_list": [ "recipe[jenkins]" ] } 
 
  - Execute CHEF-SOLO
-	- chef-solo -c /opt/chef-repo/solo.rb -j /opt/chef-repo/YOUR_NAME.json
+	- chef-solo -c /opt/chef-repo/solo.rb -j /opt/chef-repo/JASON_NAME.json
 
 
 
