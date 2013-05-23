@@ -8,7 +8,7 @@
 #
 
 execute "download_java" do 
-  command "wget --no-check-certificate --no-cookies --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com"  "http://download.oracle.com/otn-pub/java/jdk/7u21-b11/jdk-7u21-linux-i586.tar.gz" -P /home/"
+  command "wget --no-check-certificate --no-cookies --header \"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com\"  \"http://download.oracle.com/otn-pub/java/jdk/7u21-b11/jdk-7u21-linux-i586.tar.gz\" -P /home/"
   action :run
 end
 
